@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+  <body>
+  
+    <div th:fragment="nav">
+      
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link" th:href="@{/}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" th:href="@{/characters}">Characters</a>
+        </li>
+      </ul>
+    </div>
+  
+  </body>
+  
+</html>
